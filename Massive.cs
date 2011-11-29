@@ -342,7 +342,7 @@ namespace Massive {
             {
                 if (!where.Trim().StartsWith("where", StringComparison.CurrentCultureIgnoreCase))
                 {
-                    where = "WHERE " + where;
+                    where = " WHERE " + where;
                 }
             }
 
